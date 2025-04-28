@@ -35,18 +35,19 @@
             // InputBox
             // 
             this.InputBox.Font = new System.Drawing.Font("굴림", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.InputBox.Location = new System.Drawing.Point(60, 192);
+            this.InputBox.Location = new System.Drawing.Point(60, 198);
             this.InputBox.Name = "InputBox";
-            this.InputBox.Size = new System.Drawing.Size(315, 44);
+            this.InputBox.Size = new System.Drawing.Size(554, 44);
             this.InputBox.TabIndex = 0;
             this.InputBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.InputBox_KeyDown);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(68, 141);
+            this.label1.Font = new System.Drawing.Font("굴림", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label1.Location = new System.Drawing.Point(54, 95);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(167, 18);
+            this.label1.Size = new System.Drawing.Size(307, 32);
             this.label1.TabIndex = 1;
             this.label1.Text = "positive or negative";
             // 
@@ -54,7 +55,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 363);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.InputBox);
             this.Name = "Form1";
